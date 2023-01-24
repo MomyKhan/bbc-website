@@ -1,0 +1,318 @@
+    *{
+        margin: 0;
+        padding:0;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+        max-width: 1460px;
+        width: 96%;
+        margin: 0 auto;
+    }
+    .header_area{}
+    #top_header_section{
+        height: 45px;
+    }
+    .inner_top{
+        margin: 0;
+        padding: 0;
+        clear: both;
+        text-align: left;
+    }
+    .logo{
+        float: left;
+        margin-right: 5px;
+    }
+    .logo img{
+        height: 37px;
+        overflow: hidden;
+        width: 100px;
+        margin-left: 10px;
+    }
+    .sign_in{
+        float: left;
+        margin-right: 60px;
+        border-left: 1px solid gray;
+        height: 45px; 
+    }
+    .sign_in i{
+        font-size: 25px;
+        margin-left: 15px;
+        margin-top: 12px;
+    }
+    .sign_in span{
+        font-size: 16px;
+        color: #000000;
+        font-weight: bold;
+        margin-left: 8px;
+    }
+    .list{
+        width: 800px;
+        overflow: hidden;
+    }
+    .list ul{
+        margin: 0;
+        padding: 0;
+    }
+    .list li{
+        display: inline-block;
+        border-left: 1px solid gray;
+        height: 45px;
+    }
+    .list li a{
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+        position: relative;
+        padding: 20px;
+        top: 20px;
+    
+    } 
+    .more{
+        height: 45px;
+        display: inline-block;
+        position: relative;
+        left: 1004px;
+        top: -45px;
+        border-left: 1px solid gray;
+        height: 45px; 
+        overflow: hidden;
+        border-right: 1px solid gray;
+    }
+
+    .more span{
+        color: #000000;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 15px;
+     
+    }
+    .more i{
+        font-size: 25px;
+        margin-left: 50px;
+        position: relative;
+        padding-top: 13px;
+        top: 5px;
+        margin-right: 10px;
+    }
+    .search{
+        display: inline-block;
+        position: relative;
+        left:1011px;
+        top: -60px;
+        background: #D0D0D0;
+        padding-right: 5px;
+    }
+    .search form{
+
+    }
+    .search input{
+        color: #f5f8d7;
+        background: #D0D0D0;
+        border: none;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .search i{
+        font-size: 19px;
+        cursor: pointer;
+    }
+    #main_header_section{
+        margin: 0;
+        padding: 0;
+        background: #BB1919;
+        padding: 10px 0;
+        padding-bottom: 15px;
+        
+    }
+    
+    .inner_header{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .news{
+        text-transform: uppercase;
+        color: #fff;
+        font-size:50px
+    }
+    .menu{}
+    .menu ul{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        clear: both;
+    }
+    .menu ul li{
+        display: inline-block;
+        position: relative;
+    }
+    .menu ul li::after{
+       content: "";
+       position: absolute;
+       border: 0.5px solid rgba(211, 211, 211, 0.1);
+       height: 20px;
+    }
+    .menu ul li:last-child::after{
+      display: none;
+     }
+    .menu ul li a{
+        color:#fff;
+        text-decoration: none;
+        margin: 0 8px;
+        font-size: 17px;
+        position: relative;
+    }
+    .menu ul li i{
+        color: #fff;
+        font-size: 10px;
+    }
+
+
+    #main_article{
+        margin: 22px 0;
+        overflow: hidden;
+    }
+    .inner_main_article{}
+    .left_article{
+        width: 858px;
+        float: left;
+    }
+    .right_article{
+        width: 445px;
+        float: left;
+        margin-top: 75px;
+        border-left: 1px solid #b0c3c9;
+        position: relative;
+        padding-left: 6px;
+    }
+    .left_article h2{
+        width: 838px;
+        float: left;
+        margin-bottom: 45px;
+        font-size: 27px;
+    }
+    .left_article h1{
+        margin-bottom: 25px;
+        font-size: 36px;
+        width: 800px;
+    }
+    .article_summery_image{
+      width: 770px;
+    }
+    .article_summery{
+        width: 35%;
+        float: left;
+        margin-top: 17px;
+    }
+    .article_summery p{
+        font-size: 18px;
+        width: 282px;
+        margin-bottom: 20px;
+    }
+    .summery_content{
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    .summery_content_2{
+        width: 830px;
+
+    }
+    .summery_content_2 i{
+        width: 3%;
+        color: #000000;
+        font-size: 20px;
+    }
+    .summery_content_2 a{
+        text-decoration: none;
+        color: #000000;
+    }
+    .article_summery i{
+        color: gray;
+        float: left;
+        margin-right: 5px;
+    }
+    .article_summery h5{
+       font-size: 19px;
+       color: gray;
+       font-weight: normal;
+        float: left;
+    }
+    .article_summery a{
+        width: 30%;
+        float: left;
+        font-size: 18px;
+    }
+    .left_article_image{
+        width: 58%;
+        float: left;
+        margin-left: 4%;
+    }
+    .left_article_image img{
+        width: 530px;
+    }
+    
+    
+    .right_article h2{
+        font-size: 27px;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    .child_right_article{
+        width: 500px;
+        overflow: hidden;
+        margin-bottom: 35px;
+    }
+    .right_article_image{
+        width: 30%;
+        float: left
+    }
+    .right_article_image img{
+        width: 195px;
+        height: 105px;
+      
+    }
+    .right_article_heading{
+        width: 60%;
+        float: left;
+        margin-left: 10%;
+        margin-top: -2px;
+    }
+    .right_article_heading h2{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 18px;
+    }
+    .right_article_heading a{
+        text-decoration: none;
+        font-size: 18px;
+        margin-left: 3px;
+        position: relative;
+        border-left: 2px solid #000000;
+        padding-left: 20px;
+    }
+    .clock_h5{
+        width: 236px;
+        overflow: hidden;
+        margin-bottom: 5px;
+    }
+    .clock_h5 i{
+        width: 8%;
+        float: left;
+    }
+    .clock_h5 h5{
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 12px;
+    }
+
+
+
+
+
+    
+
